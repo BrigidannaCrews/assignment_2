@@ -11,6 +11,7 @@ for (var i = 1; i <= 5; i++) {
   newImage.setAttribute("src", path);
   thumbBar.appendChild(newImage);
   newImage.addEventListener("click", displayImage);
+}
 
 function displayImage(clickedImage) {
   const imagePath = clickedImage.target.getAttribute("src");
