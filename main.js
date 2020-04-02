@@ -36,7 +36,6 @@ function displayImage(clickedImage) {
 }
 
 /* Wiring up the Darken/Lighten button */
-
 //Influenced by MDN code 
 
 btn.onclick = function() {
@@ -45,11 +44,9 @@ btn.onclick = function() {
   const button_class = btn.getAttribute("class");
 
   //When main image is orginally light
-
   if (button_class === "dark") {
 
     //Changes class to 'light'
-
     btn.setAttribute("class", "light");
 
     //Change text to 'Lighten'
@@ -61,7 +58,6 @@ btn.onclick = function() {
   } else {
 
     //Changes class to 'dark'
-
     btn.setAttribute("class", "dark");
 
     //Change text to 'Darken'
